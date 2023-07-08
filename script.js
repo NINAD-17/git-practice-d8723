@@ -1,4 +1,4 @@
-
+// Constants
 const submitBtn = document.getElementById("submitBtn");
 
 function add() {
