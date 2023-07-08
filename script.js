@@ -1,8 +1,9 @@
-const num1 = document.getElementById("num1");
-const num2 = document.getElementById("num2");
+
 const submitBtn = document.getElementById("submitBtn");
 
-function add(num1, num2) {
+function add() {
+    const num1 = parseInt(document.getElementById("num1").value);
+    const num2 = parseInt(document.getElementById("num2").value);
     console.log(num1 + num2);
 }
 
